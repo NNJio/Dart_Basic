@@ -1,12 +1,13 @@
 void main() {
-  int x = 1000;
-  //const ไม่สามารถเอาตัวอื่นมาดำเนินการได้
-  const num1 = 100;
-  print(num1);
+  String name = '1';
+  String Name = '2';
+  String NAME = '3';
 
-  //final สามารถรับค่าตัวดำเนินการอื่มได้
-  final num2 = 150+x;
-  print(num2);
+  print(name);
+  print(Name);
+  print(NAME);
+
+
 }
 
 //! void main() {
