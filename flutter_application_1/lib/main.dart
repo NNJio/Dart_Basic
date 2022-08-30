@@ -1,14 +1,11 @@
-
 void main() {
-  var age = 10 - 1;
-  age =50;
-  var pi = 3.14;
-  var name = 'NNjio';
-  var isCheck = true;
-  print(age);
-  print(pi);
-  print(name);
-  print(isCheck);
+  //dynamic type
+  var name1 = 'NNJio';
+  name1 = 500;
+  dynamic name2 = 'Phatsakorn';
+  name2 = 100;
+  print(name1);
+  print(name2);
 }
 
 //! void main() {
