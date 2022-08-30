@@ -1,11 +1,13 @@
 void main() {
-  //dynamic type
-  var name1 = 'NNJio';
-  name1 = 500;
-  dynamic name2 = 'Phatsakorn';
-  name2 = 100;
-  print(name1);
-  print(name2);
+  //static type
+  var x = 120,y = 'new',z = true;
+ 
+
+  print(x);
+  print(y);
+  print(z);
+
+
 }
 
 //! void main() {
