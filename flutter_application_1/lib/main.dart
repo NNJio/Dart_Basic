@@ -1,13 +1,10 @@
 void main() {
-  String name = '1';
-  String Name = '2';
-  String NAME = '3';
-
-  print(name);
-  print(Name);
-  print(NAME);
-
-
+  var name = 'new';
+  var city = 'bangkok';
+  var age = 19;
+  var num = 50;
+  print('ชื่อ $name อายุ $age');
+  print('เลขมงคล ${age+num}');
 }
 
 //! void main() {
