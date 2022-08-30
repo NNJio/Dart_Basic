@@ -1,6 +1,12 @@
 void main() {
-  int x = 100, y = 30;
-  int z = x ~/ y;
+  int x = 20, y = 20;
+
+  print(x == y);
+  print(x != y);
+  print(x > y);
+  print(x < y);
+
+  bool z = (x <= y);
   print(z);
 }
 
