@@ -1,25 +1,32 @@
 void main() {
-  var x = 100, y = 50;
-  //ตัวเต็ม
-  // x = x + y;
-  //ลดรูป
-  //x += y;
-  //ตัวเต็ม
-  //x = x - y;
-  //ลดรูป
-  //x -= y;
-  //ตัวเต็ม
-  // x = x * y;
-  //ลดรูป
-  //x *= y;
-  //ตัวเต็ม
-  // x = x / y;
-  //ลดรูป
-  //x ~/= y;
-  //x = x % y;
-  //ลดรูป
-  //x %= y;
-  print(x);
+  //   List <int> number1 = [1,2,3];
+//   var number2 = [0,5, ...number1];
+// //   print('Hello${number2}');
+//   for (var n in number1){
+//     print('$n');
+     
+//   }
+  
+//   var list = [1,2,3];
+  
+//   print(list[0]);
+//   print(list.length);
+  
+//   var list2=[1,...list];
+//   print(list2[0]);
+//   print(list2.length);
+  
+  var list3 =[1,2,3];
+  list3.add(499);
+  print(list3);
+  list3.removeLast();
+  print(list3);
+  list3.removeAt(1);
+  print(list3);
+  
+  for(var l in list3){
+    print(l);
+  }
 }
 
 //! void main() {
