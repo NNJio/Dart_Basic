@@ -1,10 +1,7 @@
 void main() {
-  var name = 'new';
-  var city = 'bangkok';
-  var age = 19;
-  var num = 50;
-  print('ชื่อ $name อายุ $age');
-  print('เลขมงคล ${age+num}');
+  int x = 100, y = 30;
+  int z = x ~/ y;
+  print(z);
 }
 
 //! void main() {
