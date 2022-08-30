@@ -1,13 +1,27 @@
 void main() {
-  int x = 20, y = 20;
+  int a = 10,b=20;
+  //prefix ลดก่อนใช้
+  print('ค่า a = $a');
+  print('เพิ่มค่า a = ${++a}');
+  print('ค่า a ล่าสุด = ${a++}');
+   a = 10;
+  //postfix ใช้ก่อนลด
+  print('ค่า a = $a');
+  print('เพิ่มค่า a = ${a++}');
+  print('ค่า a ล่าสุด = ${a}');
+  
+  //! ลดค่า
+  //prefix ลดก่อนใช้
+  print('ค่า b = $b');
+  print('เพิ่มค่า b = ${--b}');
+  print('ค่า b ล่าสุด = ${b}');
 
-  print(x == y);
-  print(x != y);
-  print(x > y);
-  print(x < y);
-
-  bool z = (x <= y);
-  print(z);
+  //postfix ใช้ก่อนลด
+  b = 20;
+  print('ค่า b = $b');
+  print('เพิ่มค่า b = ${b--}');
+  print('ค่า b ล่าสุด = ${b}');
+  
 }
 
 //! void main() {
