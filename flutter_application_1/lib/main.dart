@@ -1,13 +1,12 @@
 void main() {
-  //static type
-  var x = 120,y = 'new',z = true;
- 
+  int x = 1000;
+  //const ไม่สามารถเอาตัวอื่นมาดำเนินการได้
+  const num1 = 100;
+  print(num1);
 
-  print(x);
-  print(y);
-  print(z);
-
-
+  //final สามารถรับค่าตัวดำเนินการอื่มได้
+  final num2 = 150+x;
+  print(num2);
 }
 
 //! void main() {
