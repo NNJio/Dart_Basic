@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
 
 void main() {
-  num age = 10 - 1;
-  num pi = 3.14;
-  String name = 'NNjio';
-  bool isCheck = true;
+  var age = 10 - 1;
+  age =50;
+  var pi = 3.14;
+  var name = 'NNjio';
+  var isCheck = true;
   print(age);
   print(pi);
   print(name);
