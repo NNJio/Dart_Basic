@@ -1,33 +1,28 @@
 void main() {
-  //   List <int> number1 = [1,2,3];
-//   var number2 = [0,5, ...number1];
-// //   print('Hello${number2}');
-//   for (var n in number1){
-//     print('$n');
-     
-//   }
-  
-//   var list = [1,2,3];
-  
-//   print(list[0]);
-//   print(list.length);
-  
-//   var list2=[1,...list];
-//   print(list2[0]);
-//   print(list2.length);
-  
-  var list3 =[1,2,3];
-  list3.add(499);
-  print(list3);
-  list3.removeLast();
-  print(list3);
-  list3.removeAt(1);
-  print(list3);
-  
-  for(var l in list3){
-    print(l);
-  }
+//!เขียนปกติ <Type,Type> ตัวแปร
+   Map<String, String> config1 = {
+    'host': '127.0.0.1',
+    'user':'root',
+    'password':'123456'
+  };
+
+  Map<int, String> config2 = {
+    11: '127.0.0.1',
+    12: 'root',
+    13: '123456'
+  };
+//!เขียนลดรูปใช้ var ไม่ต้องกำหนด Type
+  var config3={
+    'id':'newzaba01',
+    'password':'newewew'
+  };
+  //เลือกทั้งกล่อง
+  print(config3);
+  //เลือกในกล่องแบบกำหนด column
+  print('${config3['id']}');
 }
+
+
 
 //! void main() {
 //    runApp(const MyApp());
