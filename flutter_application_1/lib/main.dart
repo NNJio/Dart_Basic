@@ -1,25 +1,5 @@
 void main() {
-//!เขียนปกติ <Type,Type> ตัวแปร
-   Map<String, String> config1 = {
-    'host': '127.0.0.1',
-    'user':'root',
-    'password':'123456'
-  };
 
-  Map<int, String> config2 = {
-    11: '127.0.0.1',
-    12: 'root',
-    13: '123456'
-  };
-//!เขียนลดรูปใช้ var ไม่ต้องกำหนด Type
-  var config3={
-    'id':'newzaba01',
-    'password':'newewew'
-  };
-  //เลือกทั้งกล่อง
-  print(config3);
-  //เลือกในกล่องแบบกำหนด column
-  print('${config3['id']}');
 }
 
 
