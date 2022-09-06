@@ -1,5 +1,6 @@
 void main() {
-
+  var today = 'ทำงานทั้งวันไม่มีเวลา Up GitHub เลย';
+  print(today);
 }
 
 
